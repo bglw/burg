@@ -1,0 +1,10 @@
+<div class="c-burger">
+    {{/* Late at night, bad solution. */}}
+    {{ $i := 100 }}
+    {{ range .components }}
+    <div style="z-index: {{$i}};">
+        {{ partial "bookshop" . }}
+    </div>
+    {{ $i = sub $i 1 }}
+    {{ end }}
+</div>
