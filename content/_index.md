@@ -6,6 +6,15 @@ content_blocks:
     image: /buns.jpg
     image_alt: A flat-lay workdesk featuring a laptop, accessories, and a coffee
     tagline: And we don't even seem to care.
+  - _bookshop_name: burger
+    components:
+      - _bookshop_name: burger/top-bun
+      - _bookshop_name: burger/middle-bun
+      - _bookshop_name: burger/cheese
+      - _bookshop_name: burger/lettuce
+      - _bookshop_name: burger/patty
+      - _bookshop_name: burger/sauce
+      - _bookshop_name: burger/bottom-bun
   - _bookshop_name: leftright
     title: Sizzle Fries
     image: /fries.jpg
