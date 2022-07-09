@@ -20,7 +20,8 @@ body {
     align-items: stretch;
 }
 
-main {
+main,
+.page {
     flex: 1;
     width: 100%;
     max-width: 1000px;
