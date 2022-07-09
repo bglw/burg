@@ -1,7 +1,5 @@
 {{ define "main" }}
 
-    {{ range .Params.content_blocks }}
-        {{ partial .partial .}}
-    {{ end }}
+    {{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
 
 {{ end }}

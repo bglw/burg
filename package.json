@@ -1,0 +1,25 @@
+{
+  "name": "burg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bglw/burg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bglw/burg/issues"
+  },
+  "homepage": "https://github.com/bglw/burg#readme",
+  "dependencies": {
+    "@bookshop/browser": "3.2.1",
+    "@bookshop/generate": "3.2.1",
+    "@bookshop/hugo-engine": "3.2.1"
+  }
+}
