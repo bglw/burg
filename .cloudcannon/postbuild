@@ -1,0 +1,2 @@
+npm i
+npx -y @bookshop/generate
