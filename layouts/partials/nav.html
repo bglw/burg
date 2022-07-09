@@ -1,0 +1,12 @@
+<nav class="header">
+    <a href="/">
+        <img class="logo" src="{{ site.Data.nav.logo.image }}" alt="{{ site.Data.nav.logo.alt }}">
+    </a>
+    <ul>
+    {{ range site.Data.nav.menu }}
+        <li>
+            <a href="{{ .url }}">{{ .name }}</a>
+        </li>
+    {{ end }}
+    </ul>
+</nav>

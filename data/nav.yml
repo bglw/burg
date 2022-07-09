@@ -1,0 +1,7 @@
+menu:
+  - name: "Home"
+    url: "/"
+    open_in_new_tab: false
+logo:
+  image: "/burg.svg"
+  alt: "My Logo"
